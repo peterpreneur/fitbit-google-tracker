@@ -1,0 +1,10 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/rect.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/image.defs" />
+  </defs>
+</svg>

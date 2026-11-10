@@ -1,0 +1,33 @@
+{
+  "name": "fitbit-google-tracker",
+  "version": "1.0.0",
+  "description": "A Fitbit tracker app with Google Health API integration",
+  "private": true,
+  "license": "UNLICENSED",
+  "fitbit": {
+    "appType": "app",
+    "appDisplayName": "Google Tracker",
+    "appUUID": "1059db6a-65e2-4821-80e8-e4c89f56abd9",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_internet"
+    ],
+    "buildTargets": ["higgs", "mira"],
+    "i18n": {
+      "en-US": {
+        "displayName": "Google Tracker"
+      }
+    },
+    "defaultLanguage": "en-US",
+    "wipeColor": "#4285F4"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "^7.2.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  }
+}
