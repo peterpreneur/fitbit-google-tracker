@@ -77,4 +77,4 @@ Generate a token at the [Google OAuth 2.0 Playground](https://developers.google.
 
 - Maximum install size: 10 MB
 - `appUUID` in `package.json` must be unique — regenerate before publishing to the Fitbit Gallery
-- SDK 5 (`higgs` = Sense, `mira` = Versa 3) and SDK 4 targets require separate published listings
+- SDK 5 (`atlas` = Versa 3, `vulcan` = Sense) and SDK 4 targets require separate published listings
